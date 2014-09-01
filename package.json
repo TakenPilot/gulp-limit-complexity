@@ -1,0 +1,24 @@
+{
+  "name": "gulp-limit-complexity",
+  "version": "0.0.1",
+  "description": "Limit complexity in JavaScript projects by failing build if function exceed limits",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "Dane Stuckel",
+  "license": "ISC",
+  "repository": "git@github.com:TakenPilot/gulp-limit-complexity.git",
+  "dependencies": {
+    "escomplex": "^0.2.3",
+    "escomplex-ast-moz": "^0.1.5",
+    "esprima": "^1.2.2",
+    "gulp-util": "^3.0.1",
+    "lodash": "^2.4.1",
+    "vinyl-map": "^1.0.1"
+  },
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "gulp": "^3.8.7"
+  }
+}

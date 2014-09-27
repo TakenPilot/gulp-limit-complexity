@@ -9,7 +9,6 @@ Limit complexity in JavaScript projects by failing build if function exceed limi
 
 [![Coverage Status](https://coveralls.io/repos/TakenPilot/gulp-limit-complexity/badge.png?branch=master)](https://coveralls.io/r/TakenPilot/gulp-limit-complexity?branch=master)
 
-
 [![Dependencies](https://david-dm.org/TakenPilot/gulp-limit-complexity.svg?style=flat)](https://david-dm.org/TakenPilot/gulp-limit-complexity.svg?style=flat)
 
 Using Mozilla's JavaScript tree mapper to parse functions, and escomplex to calculate the complexity of every function.

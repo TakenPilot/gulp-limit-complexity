@@ -1,6 +1,6 @@
 {
   "name": "gulp-limit-complexity",
-  "version": "0.0.2",
+  "version": "0.5.0",
   "description": "Limit complexity in JavaScript projects by failing build if function exceed limits",
   "main": "index.js",
   "scripts": {

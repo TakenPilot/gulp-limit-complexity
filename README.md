@@ -17,6 +17,16 @@ Using Mozilla's JavaScript tree mapper to parse functions, and escomplex to calc
 This is mainly useful for keeping third-party developers honest and to a certain level of quality.
 Can also be useful on large teams as a kind of contract for how complex or readable their code must be.
 
+##Install
+
+```Bash
+
+npm install gulp-limit-complexity
+
+```
+
+##Example
+
 ```JavaScript
 
 var limitComplexity = require('gulp-limit-complexity');
@@ -33,7 +43,7 @@ gulp.task('complexity', function () {
 
 ```
 
-Another example
+##Another example
 
 ```JavaScript
 
@@ -43,7 +53,7 @@ gulp.task('complexity', function () {
     return gulp.src(path.src.js)
         .pipe(limitComplexity({
             halstead: {
-                difficulty: 14 //overall a difficulty value of fourteen to understand
+                difficulty: 14 //difficulty represents readability
             },
             params: 3 //functions can only have a maximum of three parameters
         }));
@@ -52,7 +62,7 @@ gulp.task('complexity', function () {
 ```
 
 
-Another example
+##Another example
 
 ```JavaScript
 

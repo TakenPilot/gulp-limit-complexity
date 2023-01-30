@@ -3,15 +3,8 @@ gulp limit complexity
 
 Limit complexity in JavaScript projects by failing build if function exceed limits.
 
-[![Build Status](https://travis-ci.org/TakenPilot/gulp-limit-complexity.svg?branch=master)](https://travis-ci.org/TakenPilot/gulp-limit-complexity)
-
-[![Code Climate](https://codeclimate.com/github/TakenPilot/gulp-limit-complexity/badges/gpa.svg)](https://codeclimate.com/github/TakenPilot/gulp-limit-complexity)
-
-[![Coverage Status](https://coveralls.io/repos/TakenPilot/gulp-limit-complexity/badge.png?branch=master)](https://coveralls.io/r/TakenPilot/gulp-limit-complexity?branch=master)
-
-[![Dependencies](https://david-dm.org/TakenPilot/gulp-limit-complexity.svg?style=flat)](https://david-dm.org/TakenPilot/gulp-limit-complexity.svg?style=flat)
-
-[![NPM version](https://badge.fury.io/js/gulp-limit-complexity.svg)](http://badge.fury.io/js/gulp-limit-complexity)
+> **⚠ Warning**
+> This library is deprecated. The underlying libraries that this package relies on are either unmaintained or have security warnings. I'm deprecating this project until someone rewrites it with modern tooling.
 
 Using Mozilla's JavaScript tree mapper to parse functions, and escomplex to calculate the complexity of every function.
 This is mainly useful for keeping third-party developers honest and to a certain level of quality.
